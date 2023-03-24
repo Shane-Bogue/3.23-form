@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+
+        <title></title>
+        <meta name="description" content="">
+    </head>
+    <body>
+        <form>
+            <label for="ice-cream-choice">Choose a flavor:</label>
+            <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+            <datalist id="ice-cream-flavors">
+                <option value="Chocolate">
+                <option value="Coconut">
+                <option value="Mint">
+                <option value="Strawberry"> 
+                <option value="Vanilla">
+            </datalist>
+        </form>
+        <form>
+            <label for="flavor">Choose a flavor:</label>
+            <select name="flavor" id="flavor">
+                <option value="Chocolate">Chocolate</option>
+                <option value="Coconut">Coconut</option>
+                <option value="Mint">Mint</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Vanilla">Vanilla</option>
+            </select>
+        </form>
+        <form>
+            <fieldset>
+                <p>Choose Your Favorite Monster:</p>
+                <input type="radio" id="kraken" name="monster" value="kraken">
+                <label for="kaken">Kraken</label><br>
+                <input type="radio" id="sasquatch" name="monster" value="sasquatch">
+                <label for="sasquatch">Sasquatch</label><br>
+                <input type="radio" id="mothman" name="monster" value="mothman">
+                <label for="mothman">Mothman</label>
+            </fieldset>
+        </form>
+
+        <div>
+            <p>
+                Temp: 0 <meter low="69" high="100" max="120" value="49">B</meter> 120
+              </p>
+              <p>
+                Temp: 0 <meter low="69" high="100" max="120" value="79">B</meter> 120
+              </p>
+              <p>
+                Temp: 0 <meter low="69" high="100" max="120" value="115">B</meter> 120
+              </p>
+
+          <form>
+            <input type="range" id="num1" name="num1"
+            min="0" max="11"> +
+            <input id="num2" type="text" name="num2">
+            <input type="button" value="Calculate" onclick="doAdd()" /> =
+            <p id="add"></p>
+          </form>
+
+          <form>
+            <input id="num3" type="text" name="num3"> *
+            <input id="num4" type="text" name="num4">
+            <input type="button" value="Calculate" onclick="doMult()" /> =
+            <p id="mult"></p>
+          </form>
+
+
+          
+    </body>
+    
+</html>

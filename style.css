@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Fox';
+    src: url('/Fonts/FoxAndBower.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Sonora';
+    src: url('/Fonts/Sonorous-Rough.otf') format('opentype');
+}
+
+:root {
+--foo: #efefef;
+--bar: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fox', sans-serif;
+    /*font-family: 'Sonora', sans-serif;*/
+}
+
+header {
+    /* This Element*/
+
+    /* Inner Elements*/
+
+}
+
+main {
+    /* This Element*/
+
+    /* Inner Elements*/
+
+}
+
+article {
+    /* This Element*/
+
+    /* Inner Elements*/
+    
+}
+
+footer {
+    /* This Element*/
+
+    /* Inner Elements*/
+    
+}
+
+.💪 {  /* Flex */
+    display: flex;
+}
+
+.🔎 {  /* Search Bar */
+}
+
+.⚪ {  /* Logo */
+}
+
+.🧭 { /* Navigation */
+}
+
+.📍 {  /* Navigation Elements */
+}
+
+.📌 { /* PLACEHOLDER */
+}
+
+.🔻 {  /* PLACEHOLDER */
+}
+
+.🔳 {  /* PLACEHOLDER */
+}
+
+.⬜ {
+}
+
+@keyframes buzz {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+@media only screen and (max-width: 800px) {
+  }
